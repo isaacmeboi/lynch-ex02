@@ -2,8 +2,10 @@ import java.util.Scanner;
 public class solution02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.println("Enter a string");
         String s = input.nextLine();//reads input on next line
+
         System.out.println("The word "+ s + " has " + s.length() + " characters. " );
 
     }
