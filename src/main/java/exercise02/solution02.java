@@ -1,11 +1,15 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Isaac Lynch
+ */
 package exercise02;
 import java.util.Scanner;
 public class solution02 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter a string");
-        String s = input.nextLine();//reads input on next line
+        String s = sc.nextLine();//reads input on next line
 
         System.out.println("The word "+ s + " has " + s.length() + " characters. " );
 
